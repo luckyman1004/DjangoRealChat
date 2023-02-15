@@ -21,7 +21,7 @@ This App is Deployed to [Render](https://render.com). <br/>
 ```bash
 mkdir ~/Dev
 cd ~/Dev
-git clone https://github.com/Arvind-4/Chatapp.git
+git clone https://github.com/luckyman1004/DjangoRealChat.git
 cd Chatapp
 ```
 
