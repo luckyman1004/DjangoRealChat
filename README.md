@@ -22,7 +22,7 @@ This App is Deployed to [Render](https://render.com). <br/>
 mkdir ~/Dev
 cd ~/Dev
 git clone https://github.com/luckyman1004/DjangoRealChat.git
-cd Chatapp
+cd DjangoRealChat
 ```
 
 2. Create virtual environment and activate it.
@@ -35,8 +35,8 @@ Use `.\venv\Scripts\activate` if on **Windows.**
 
 3. Install requirements
 ```bash
-$(Chatapp) python -m pip install pip --upgrade
-$(Chatapp) python -m pip install -r requirements.txt
+$(DjangoRealChat) python -m pip install pip --upgrade
+$(DjangoRealChat) python -m pip install -r requirements.txt
 ```
 
 4. Open VSCode
@@ -88,16 +88,16 @@ docker run -it -p 8000:8000 chatapp:v1
 
 7. Run Django Commands & Migrations and Create Superuser
 ```bash
-cd ~/Dev/Chatapp
+cd ~/Dev/DjangoRealChat
 source bin/activate
-$(Chatapp) python manage.py makemigrations
-$(Chatapp) python manage.py migrate
-$(Chatapp) python manage.py createsuperuser
+$(DjangoRealChat) python manage.py makemigrations
+$(DjangoRealChat) python manage.py migrate
+$(DjangoRealChat) python manage.py createsuperuser
 ```
 
 Run the server:
 ```bash
-$(Chatapp) python manage.py runserver
+$(DjangoRealChat) python manage.py runserver
 ```
 
 8. Install & Build the Frontend.
@@ -116,10 +116,10 @@ npm run production
 ## Deploy to Render:
 Click the Button to Deploy to [Render](https://render.com/).
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Arvind-4/Chatapp)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/luckyman1004/DjangoRealChat)
 
 ## Change Log:
-[Change Log](https://github.com/Arvind-4/Chatapp/commits/main).
+[Change Log](https://github.com/luckyman1004/DjangoRealChat/commits/main).
 
 ## License:
-This Project is [MIT LICENSE](https://github.com/Arvind-4/Chatapp/blob/main/LICENSE).
+This Project is [MIT LICENSE](https://github.com/luckyman1004/DjangoRealChat/blob/main/LICENSE).
