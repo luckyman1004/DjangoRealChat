@@ -1,4 +1,4 @@
-# Chat App
+# Real-Time Chat
 
 Real Time Chat App Using Django, Channels, JavaScript, Docker, Tailwind CSS and much more..
 
